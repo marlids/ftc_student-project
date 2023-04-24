@@ -1,13 +1,13 @@
-# libraries
-from folium.plugins import MarkerCluster
-from streamlit_folium import folium_static
-
 # bibliotecas necessárias
 import pandas as pd
 import numpy   as np 
 import folium
 import streamlit as st
 from PIL import Image
+
+# libraries
+from folium.plugins import MarkerCluster
+from streamlit_folium import folium_static
 
 st.set_page_config(
     page_title="Main Home",

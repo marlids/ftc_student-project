@@ -189,7 +189,7 @@ df2 = df1.copy()
 with st.sidebar.container():
     col1, col2, col3 = st.columns(3)
     with col1:
-        image_path = 'Logo.png'
+        image_path = 'logo.png'
         image = Image.open( image_path )
         st.image( image, width= 40)
     with col2:
